@@ -1,0 +1,37 @@
+@import './partials/resets';
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+// .about {
+//   background: $primary-color;
+//   height: 60vh;
+
+//   &__title {
+//     color: $title-color;
+//   }
+// } 
+
+
+
+.about {
+  background: $primary-color;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  
+  @include absCenter;
+
+  #{&}__hero {
+    background-color: pink;
+  }
+
+  #{&}__title {
+    font-weight: weight(regular);
+    color: $title-color;
+  
+    &:hover {
+      
+      color: $accent-color;
+    }
+  }
+} 

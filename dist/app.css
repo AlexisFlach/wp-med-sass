@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  background: #16301d;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about .about__hero {
+  background-color: pink;
+}
+.about .about__title {
+  font-weight: 400;
+  color: #f7f4f4;
+}
+.about .about__title:hover {
+  color: #ff00ea;
+}
